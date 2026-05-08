@@ -65,7 +65,7 @@ def main():
 
     hull = convex_hull(sorted(points))
     len_hull = get_length(hull)
-    print(f"{len_hull:.6f}")
+    print(f"{len_hull:.8f}")
 
 
 if __name__ == "__main__":
